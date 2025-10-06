@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mohdzeeshan</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    html,body{
+      height: 100%;
+      width: 100%;
+      overflow-x: hidden;
+    }
+    body{
+      padding: 0;
+      margin: 0;
+      background: linear-gradient(to right,#37575c,#151438)
+     
+    }
+    .nav{
+      margin: 10px;
+      color: rgb(225, 112, 150);
+      border: 2px solid rgb(36, 42, 81);
+      text-align: center;
+      border-radius: 30px;
+      outline: 2px solid black;
+      box-shadow: 5px 5px 15px #888888 ;
+    }
+    .intro{
+   display: flex;
+    gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    }
+    .zeesh{
+      width: 350px;
+    height: 300px;
+    color: rgb(246, 250, 250);
+    border: 2px solid black;
+    border-radius: 40px;
+    box-shadow: 5px 5px 15px #742929;
+    text-align: center;
+     font-weight: bold;
+     position: relative;
+     bottom: 20px;
+     left: 0px;
+    
+     transition: transform 0.3s ease;
+    }
+  
+    .zeesh:hover{
+      transform: scale(1.1);
+    }
+    
+    .about{
+      position: relative;
+      top: 70px;
+      left: 40px;
+      color: antiquewhite;
+      text-decoration:  wheat underline;
+
+    }
+  .aligen{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+   .box{
+    width: 350px;
+    height: 300px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 40px;
+    text-align: center;
+     font-weight: bold;
+     position: relative;
+     top: 70px;
+     left: 0px;
+
+   } 
+    
+    .skills{
+      position: relative;
+      top: 130px;
+      left: 40px;
+      color: rgb(249, 223, 192);
+      text-decoration:  rgb(238, 156, 3);
+      text-decoration: wheat underline;
+    }
+    .list{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      position: relative;
+      top: 200px;
+      left: 50px;
+    }
+    .box2{
+      text-align: center;
+      color: aliceblue;
+    }
+    .box2 img{
+      width: 80px;
+      height: 80px;
+      display: block;
+      margin: 0 auto;
+    }
+    .box2 p{
+      margin-top: 8px;
+      font-size: 16px;
+    }
+    .project{
+      position: relative;
+      top: 280px;
+      left: 40px;
+      color: rgb(249, 223, 192);
+      text-decoration:  rgb(238, 156, 3);
+      text-decoration: wheat underline;
+      
+    }
+   .container{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 50px;
+      
+   }
+   .my-byt{
+    width: 80px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: #3d3780;
+    color: antiquewhite;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    left: 120px;
+   }
+   .project1{
+    width: 320px;
+    height: 200px;
+    position: relative;
+    top: 380px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    border-radius: 40px;
+     box-shadow: 5px 5px 15px #3d3780;
+     transition: transform 0.3s ease;
+     background-image: url("images/projectport.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+   } 
+   .project1:hover{
+    transform: scale(1.1);
+   }
+   .project2{
+    width: 320px;
+    height: 200px;
+    position: relative;
+    top: 380px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    border-radius: 40px;
+     box-shadow: 5px 5px 15px #3d3780;
+     transition: transform 0.3s ease;
+     background-image: url("images/quantive.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+   .project2:hover{
+    transform: scale(1.1);
+   }
+   .project3{
+   width: 320px;
+    height: 200px;
+    position: relative;
+    top: 380px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    border-radius: 40px;
+     box-shadow: 5px 5px 15px #3d3780;
+     transition: transform 0.3s ease;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+   .project3:hover{
+    transform: scale(1.1);
+   }
+   .project4{
+    width: 320px;
+    height: 200px;
+    position: relative;
+    top: 380px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    border-radius: 40px;
+     box-shadow: 5px 5px 15px #3d3780;
+     transition: transform 0.3s ease;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+   .project4:hover{
+    transform: scale(1.1);
+   }
+   
+   .contact{
+     position: relative;
+      top: 450px;
+      left: 40px;
+      color: rgb(249, 223, 192);
+      text-decoration:  rgb(238, 156, 3);
+      text-decoration: wheat underline;
+
+   }
+   .detail{
+      display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+   }
+   .details{
+    position: relative;
+    top: 450px;
+    
+    transition: transform 0.3s ease;
+    
+   }
+   .details:hover{
+    transform: scale(1.1);
+   }
+   .add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   .footer{
+    color: aliceblue;
+    position: relative;
+    top: 500px;
+    left: 40px;
+    outline: 2px black;
+   }
+  
+   
+  </style>
+    
+<body>
+  <div class="nav">
+    <h2>welcome to my portfolio! <br></h2>
+  </div>
+    
+    <div class="intro">
+      <img src="images/image.png"style="width: 320px; height:300px; border-radius:360px;" class="zeesh"  >
+      <div class="zeesh">
+        <h1 style="color: #3f99a7;"><I>HEY! I AM MOHD ZEESHAN,</I></h1>
+        <h2> curiousity drives my journey in technology. I constantly learn and innovate to create better solution.I aim to deliver projects that are not functional but also inspiring..</h2></dd>
+      </div>
+    </div>
+    <div class="about"><h1><I>ABOUT ME</I></h1></div>
+    <div class="aligen">
+      <div class="box">
+        <h1> &star; Education</h1><br>
+        
+          <h2>&gt; Hayaath junior college<br>[2021-2023]<h2><br><br>
+          <h2>&gt; Muffakham Jah College of Engineering and technology-<h3>[INFORMATION TECHNOLOGY]</h3><h2>[2023-2027]</h2>
+         
+      </div> 
+      <div class="box">
+        <h1> &star; Achievement</h1><br>
+            <h2>&gt; ENVISAGE [JULY-2025]<br> runner up <h2><br><br>
+            <h2>&gt; CodeRUNNER [FEB-2025]<h2>WINNER</h2>
+      </div>
+    </div>
+     <div class="skills"><h1><I>SKILLS</I></h1></div>
+     <div class="list">
+      <div class="box2">
+        <img src="images/image copy.png" width="100px" height="100px" alt="html">
+        <p>HTML5</p>
+      </div>
+      <div class="box2">
+        <img src="images/image copy 2.png" width="100px" height="100px" alt="CSS3">
+        <p>CSS3</p>
+      </div>
+      <div class="box2">
+        <img src="images/javascript.png" width="100px" height="100px" alt="javascript">
+        <p>JAVASCRIPT</p>
+      </div>
+      <div class="box2">
+        <img src="images/react.jpg" width="100px" height="100px" alt="react.js">
+        <p>REACT.JS</p>
+      </div>
+      <div class="box2">
+        <img src="images/git.jpg" width="100px" height="100px" alt="git">
+        <p>GIT</p>
+      </div>
+      <div class="box2">
+        <img src="images/github.jpg" width="100px" height="100px" alt="github">
+        <p>GITHUB</p>
+      </div>
+      <div class="box2">
+        <img src="images/py.jpg" width="100px" height="100px" alt="python">
+        <p>PYTHON</p>
+      </div>
+      <div class="box2">
+        <img src="images/java.jpg" width="100px" height="100px" alt="java">
+        <p>JAVA</p>
+      </div>
+     </div>
+     <div class="project"><h1><I>PROJECTS</I></h1></div>
+     <div class="container">
+      <div class="project1"><button class="my-byt">clickme</button></div>
+      <div class="project2"><a href="https://expense-flow.netlify.app/" target="_blank"><button class="my-byt">check</button></a></div>
+      <div class="project3"><button class="my-byt">check</button><h1>pending</h1></div>
+      <div class="project4"><button class="my-byt">check</button><h1>pending<br>science and space</h1></div>
+     </div>
+     <div class="contact"><h1><I>CONTACT ME</I></h1></div>
+     <div class="detail">
+     <div class=" details"><img src="images/gits.png" width="50" height="50"></div>
+     <div class=" details"><a href="https://www.instagram.com/zeesh._x2" target="_blank"><img src="images/insta.png" width="50" height="50"></a></div>
+     <div class=" details"><a href="https://www.linkedin.com/in/mohd-zeeshan-88b4942a0" target="_blank"><img src="images/linkdin.png" width="50" height="50"></a></div>
+     <div class=" details"><a href="//www.x.com/mohd_zeeshan76642" target="_blank"><img src="images/x.png" width="50" height="50"></a></div>
+     
+     </div>
+     <footer class="add">
+     <h2 class="footer"> Copyright&copy;All right reserved-mohdzeeshan 2025</h2>
+     </footer>
+    </body>
+</html>
